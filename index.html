@@ -3,75 +3,51 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>أعمدة تحكي حلب</title>
-<meta name="description" content="مقترح لوضع صور شخصيات حلبية على أعمدة ساحة التحرير في حلب، مع لوحة تعريف ورمز QR لكل شخصية.">
+<title>رسائل إلى أبناء حلب</title>
+<meta name="description" content="مقترح «رسائل إلى أبناء حلب» لأعمدة ساحة التحرير في حلب.">
 <meta name="theme-color" content="#f5f3ee">
-<meta property="og:title" content="أعمدة تحكي حلب">
-<meta property="og:description" content="مقترح لأعمدة ساحة التحرير في حلب">
-<meta property="og:image" content="assets/img/pole-haji-marea.jpg">
+<meta property="og:title" content="رسائل إلى أبناء حلب">
+<meta property="og:image" content="assets/img/pole-example.jpg">
 <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@500;700;800&family=Almarai:wght@400;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@700;800&family=Almarai:wght@400;700&family=Amiri:wght@700&display=swap">
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <main class="deck" id="deck">
 
   <section class="slide" aria-label="الفكرة">
-    <div class="wrap">
-      <span class="kicker">مقترح لأعمدة ساحة التحرير</span>
-      <h1>أعمدة تحكي حلب</h1>
-      <p class="lead">نضع على أعمدة الساحة وجوه أشخاص صنعوا تاريخ حلب، من رموزها القدماء إلى ثوارها. كل عمود يحمل لوحتين: لوحة للصورة والاسم، ولوحة للتعريف ورمز QR.</p>
+    <div class="wrap s1">
+      <div>
+        <span class="kicker">مقترح لأعمدة ساحة التحرير · حلب</span>
+        <h1>رسائل إلى أبناء حلب</h1>
+        <p class="lead">على لوحات أعمدة الساحة رسائل قصيرة يوجّهها إلى أبناء حلب أشخاصٌ يحبهم الحلبيون ويحترمونهم.</p>
+        <div class="facts">
+          <div class="fact"><span class="ic">”</span><div><b>كل لوحة رسالة</b><span>جملة قصيرة موجّهة لأبناء حلب</span></div></div>
+          <div class="fact"><span class="ic">—</span><div><b>وتحتها صاحبها</b><span>اسمه وصفته</span></div></div>
+          <div class="fact g"><span class="ic">28/11</span><div><b>تتجدد كل عام</b><span>رسائل جديدة في ذكرى تحرير حلب</span></div></div>
+        </div>
+      </div>
       <figure class="shot">
-        <div class="shot-frame"><img id="shotImg" src="assets/img/pole-haji-marea.jpg" alt="عمود في ساحة التحرير وعليه لوحتا عبد القادر الصالح «حجي مارع»"></div>
-        <figcaption>
-          <span>العمود في الساحة، من الرندر النهائي</span>
-          <div class="seg" role="group" aria-label="اختر الشخصية">
-            <button id="tHm" class="on" type="button">حجي مارع</button>
-            <button id="tKw" type="button">عبد الرحمن الكواكبي</button>
-          </div>
-        </figcaption>
+        <div class="fr"><img src="assets/img/pole-example.jpg" alt="عمود من أعمدة الساحة بلوحتين: رسالة من محافظ حلب ورسالة من قائد من ثوار حلب"></div>
+        <figcaption>نموذج توضيحي: النصوص النهائية يكتبها أصحابها</figcaption>
       </figure>
     </div>
   </section>
 
-  <section class="slide" aria-label="تصميم اللوحتين">
+  <section class="slide" aria-label="من يكتب لحلب">
     <div class="wrap">
-      <span class="kicker">تصميم اللوحتين</span>
-      <h2>صورة واسم، ثم تعريف ورمز QR</h2>
-      <p class="lead">اللوحة الكبيرة تحمل الصورة والاسم والمجال، والصغيرة تعرّف بالشخصية وتفتح قصتها كاملة عند مسح الرمز.</p>
-      <div class="pairs">
-        <div class="pair"><div class="pb-w"><div class="pb"><div class="ph"><img src="assets/img/portrait-haji-marea.jpg" alt="عبد القادر الصالح"></div><div class="tx"><span class="tg">ثوار حلب</span><div class="nm">عبد القادر الصالح</div><div class=nk>«حجي مارع»</div><div class="yr">1979 – 2013</div><div class="ab"></div></div></div></div><div class="ps-w"><div class="ps"><div class="tx"><div class="nm">حجي مارع</div><div class="ds">ابن مارع في ريف حلب الشمالي، ومن أبرز قادة الثورة في حلب وريفها.</div></div><div class="qr-col"><svg class="qr" viewBox="0 0 25 25" shape-rendering="crispEdges" aria-hidden="true"><path d="M0 0h1v1h-1zM1 0h1v1h-1zM2 0h1v1h-1zM3 0h1v1h-1zM4 0h1v1h-1zM5 0h1v1h-1zM6 0h1v1h-1zM8 0h1v1h-1zM11 0h1v1h-1zM12 0h1v1h-1zM13 0h1v1h-1zM14 0h1v1h-1zM18 0h1v1h-1zM19 0h1v1h-1zM20 0h1v1h-1zM21 0h1v1h-1zM22 0h1v1h-1zM23 0h1v1h-1zM24 0h1v1h-1zM0 1h1v1h-1zM6 1h1v1h-1zM8 1h1v1h-1zM9 1h1v1h-1zM10 1h1v1h-1zM12 1h1v1h-1zM13 1h1v1h-1zM16 1h1v1h-1zM18 1h1v1h-1zM24 1h1v1h-1zM0 2h1v1h-1zM2 2h1v1h-1zM3 2h1v1h-1zM4 2h1v1h-1zM6 2h1v1h-1zM10 2h1v1h-1zM11 2h1v1h-1zM12 2h1v1h-1zM13 2h1v1h-1zM15 2h1v1h-1zM16 2h1v1h-1zM18 2h1v1h-1zM20 2h1v1h-1zM21 2h1v1h-1zM22 2h1v1h-1zM24 2h1v1h-1zM0 3h1v1h-1zM2 3h1v1h-1zM3 3h1v1h-1zM4 3h1v1h-1zM6 3h1v1h-1zM10 3h1v1h-1zM13 3h1v1h-1zM14 3h1v1h-1zM18 3h1v1h-1zM20 3h1v1h-1zM21 3h1v1h-1zM22 3h1v1h-1zM24 3h1v1h-1zM0 4h1v1h-1zM2 4h1v1h-1zM3 4h1v1h-1zM4 4h1v1h-1zM6 4h1v1h-1zM8 4h1v1h-1zM9 4h1v1h-1zM10 4h1v1h-1zM11 4h1v1h-1zM13 4h1v1h-1zM14 4h1v1h-1zM18 4h1v1h-1zM20 4h1v1h-1zM21 4h1v1h-1zM22 4h1v1h-1zM24 4h1v1h-1zM0 5h1v1h-1zM6 5h1v1h-1zM8 5h1v1h-1zM11 5h1v1h-1zM14 5h1v1h-1zM18 5h1v1h-1zM24 5h1v1h-1zM0 6h1v1h-1zM1 6h1v1h-1zM2 6h1v1h-1zM3 6h1v1h-1zM4 6h1v1h-1zM5 6h1v1h-1zM6 6h1v1h-1zM8 6h1v1h-1zM10 6h1v1h-1zM12 6h1v1h-1zM14 6h1v1h-1zM16 6h1v1h-1zM18 6h1v1h-1zM19 6h1v1h-1zM20 6h1v1h-1zM21 6h1v1h-1zM22 6h1v1h-1zM23 6h1v1h-1zM24 6h1v1h-1zM8 7h1v1h-1zM10 7h1v1h-1zM11 7h1v1h-1zM12 7h1v1h-1zM14 7h1v1h-1zM15 7h1v1h-1zM16 7h1v1h-1zM0 8h1v1h-1zM1 8h1v1h-1zM2 8h1v1h-1zM5 8h1v1h-1zM6 8h1v1h-1zM8 8h1v1h-1zM9 8h1v1h-1zM10 8h1v1h-1zM13 8h1v1h-1zM14 8h1v1h-1zM15 8h1v1h-1zM16 8h1v1h-1zM17 8h1v1h-1zM18 8h1v1h-1zM19 8h1v1h-1zM20 8h1v1h-1zM23 8h1v1h-1zM24 8h1v1h-1zM1 9h1v1h-1zM2 9h1v1h-1zM3 9h1v1h-1zM4 9h1v1h-1zM5 9h1v1h-1zM7 9h1v1h-1zM8 9h1v1h-1zM9 9h1v1h-1zM10 9h1v1h-1zM13 9h1v1h-1zM15 9h1v1h-1zM16 9h1v1h-1zM18 9h1v1h-1zM19 9h1v1h-1zM21 9h1v1h-1zM24 9h1v1h-1zM1 10h1v1h-1zM2 10h1v1h-1zM3 10h1v1h-1zM4 10h1v1h-1zM5 10h1v1h-1zM6 10h1v1h-1zM7 10h1v1h-1zM8 10h1v1h-1zM11 10h1v1h-1zM15 10h1v1h-1zM22 10h1v1h-1zM24 10h1v1h-1zM0 11h1v1h-1zM1 11h1v1h-1zM3 11h1v1h-1zM4 11h1v1h-1zM7 11h1v1h-1zM9 11h1v1h-1zM13 11h1v1h-1zM15 11h1v1h-1zM16 11h1v1h-1zM19 11h1v1h-1zM20 11h1v1h-1zM21 11h1v1h-1zM0 12h1v1h-1zM2 12h1v1h-1zM6 12h1v1h-1zM8 12h1v1h-1zM9 12h1v1h-1zM11 12h1v1h-1zM12 12h1v1h-1zM13 12h1v1h-1zM16 12h1v1h-1zM18 12h1v1h-1zM19 12h1v1h-1zM1 13h1v1h-1zM3 13h1v1h-1zM4 13h1v1h-1zM5 13h1v1h-1zM7 13h1v1h-1zM8 13h1v1h-1zM12 13h1v1h-1zM15 13h1v1h-1zM17 13h1v1h-1zM18 13h1v1h-1zM19 13h1v1h-1zM24 13h1v1h-1zM0 14h1v1h-1zM1 14h1v1h-1zM3 14h1v1h-1zM5 14h1v1h-1zM6 14h1v1h-1zM7 14h1v1h-1zM8 14h1v1h-1zM12 14h1v1h-1zM13 14h1v1h-1zM14 14h1v1h-1zM15 14h1v1h-1zM18 14h1v1h-1zM21 14h1v1h-1zM22 14h1v1h-1zM24 14h1v1h-1zM3 15h1v1h-1zM4 15h1v1h-1zM7 15h1v1h-1zM8 15h1v1h-1zM11 15h1v1h-1zM12 15h1v1h-1zM14 15h1v1h-1zM15 15h1v1h-1zM17 15h1v1h-1zM21 15h1v1h-1zM23 15h1v1h-1zM0 16h1v1h-1zM1 16h1v1h-1zM2 16h1v1h-1zM4 16h1v1h-1zM6 16h1v1h-1zM8 16h1v1h-1zM9 16h1v1h-1zM10 16h1v1h-1zM13 16h1v1h-1zM14 16h1v1h-1zM15 16h1v1h-1zM16 16h1v1h-1zM17 16h1v1h-1zM18 16h1v1h-1zM19 16h1v1h-1zM20 16h1v1h-1zM23 16h1v1h-1zM24 16h1v1h-1zM8 17h1v1h-1zM9 17h1v1h-1zM10 17h1v1h-1zM13 17h1v1h-1zM14 17h1v1h-1zM15 17h1v1h-1zM16 17h1v1h-1zM20 17h1v1h-1zM24 17h1v1h-1zM0 18h1v1h-1zM1 18h1v1h-1zM2 18h1v1h-1zM3 18h1v1h-1zM4 18h1v1h-1zM5 18h1v1h-1zM6 18h1v1h-1zM9 18h1v1h-1zM10 18h1v1h-1zM11 18h1v1h-1zM16 18h1v1h-1zM18 18h1v1h-1zM20 18h1v1h-1zM21 18h1v1h-1zM22 18h1v1h-1zM24 18h1v1h-1zM0 19h1v1h-1zM6 19h1v1h-1zM8 19h1v1h-1zM9 19h1v1h-1zM13 19h1v1h-1zM15 19h1v1h-1zM16 19h1v1h-1zM20 19h1v1h-1zM21 19h1v1h-1zM23 19h1v1h-1zM24 19h1v1h-1zM0 20h1v1h-1zM2 20h1v1h-1zM3 20h1v1h-1zM4 20h1v1h-1zM6 20h1v1h-1zM9 20h1v1h-1zM11 20h1v1h-1zM12 20h1v1h-1zM13 20h1v1h-1zM15 20h1v1h-1zM16 20h1v1h-1zM17 20h1v1h-1zM18 20h1v1h-1zM19 20h1v1h-1zM20 20h1v1h-1zM21 20h1v1h-1zM23 20h1v1h-1zM24 20h1v1h-1zM0 21h1v1h-1zM2 21h1v1h-1zM3 21h1v1h-1zM4 21h1v1h-1zM6 21h1v1h-1zM12 21h1v1h-1zM16 21h1v1h-1zM17 21h1v1h-1zM20 21h1v1h-1zM21 21h1v1h-1zM22 21h1v1h-1zM23 21h1v1h-1zM0 22h1v1h-1zM2 22h1v1h-1zM3 22h1v1h-1zM4 22h1v1h-1zM6 22h1v1h-1zM8 22h1v1h-1zM10 22h1v1h-1zM12 22h1v1h-1zM13 22h1v1h-1zM14 22h1v1h-1zM17 22h1v1h-1zM20 22h1v1h-1zM23 22h1v1h-1zM24 22h1v1h-1zM0 23h1v1h-1zM6 23h1v1h-1zM8 23h1v1h-1zM10 23h1v1h-1zM11 23h1v1h-1zM12 23h1v1h-1zM14 23h1v1h-1zM16 23h1v1h-1zM17 23h1v1h-1zM18 23h1v1h-1zM19 23h1v1h-1zM0 24h1v1h-1zM1 24h1v1h-1zM2 24h1v1h-1zM3 24h1v1h-1zM4 24h1v1h-1zM5 24h1v1h-1zM6 24h1v1h-1zM8 24h1v1h-1zM10 24h1v1h-1zM13 24h1v1h-1zM14 24h1v1h-1zM16 24h1v1h-1zM18 24h1v1h-1zM21 24h1v1h-1zM24 24h1v1h-1z"/></svg><div class="qc">امسح وتعرّف أكثر</div></div></div></div></div>
-        <div class="pair"><div class="pb-w"><div class="pb"><div class="ph"><img src="assets/img/portrait-kawakibi.jpg" alt="عبد الرحمن الكواكبي"></div><div class="tx"><span class="tg">الفكر والنهضة</span><div class="nm">عبد الرحمن الكواكبي</div><div class="yr">1855 – 1902</div><div class="ab"></div></div></div></div><div class="ps-w"><div class="ps"><div class="tx"><div class="nm">عبد الرحمن الكواكبي</div><div class="ds">من رواد النهضة العربية، وصاحب «طبائع الاستبداد» و«أم القرى».</div></div><div class="qr-col"><svg class="qr" viewBox="0 0 25 25" shape-rendering="crispEdges" aria-hidden="true"><path d="M0 0h1v1h-1zM1 0h1v1h-1zM2 0h1v1h-1zM3 0h1v1h-1zM4 0h1v1h-1zM5 0h1v1h-1zM6 0h1v1h-1zM8 0h1v1h-1zM11 0h1v1h-1zM12 0h1v1h-1zM13 0h1v1h-1zM14 0h1v1h-1zM18 0h1v1h-1zM19 0h1v1h-1zM20 0h1v1h-1zM21 0h1v1h-1zM22 0h1v1h-1zM23 0h1v1h-1zM24 0h1v1h-1zM0 1h1v1h-1zM6 1h1v1h-1zM8 1h1v1h-1zM9 1h1v1h-1zM10 1h1v1h-1zM12 1h1v1h-1zM13 1h1v1h-1zM16 1h1v1h-1zM18 1h1v1h-1zM24 1h1v1h-1zM0 2h1v1h-1zM2 2h1v1h-1zM3 2h1v1h-1zM4 2h1v1h-1zM6 2h1v1h-1zM10 2h1v1h-1zM11 2h1v1h-1zM12 2h1v1h-1zM13 2h1v1h-1zM15 2h1v1h-1zM16 2h1v1h-1zM18 2h1v1h-1zM20 2h1v1h-1zM21 2h1v1h-1zM22 2h1v1h-1zM24 2h1v1h-1zM0 3h1v1h-1zM2 3h1v1h-1zM3 3h1v1h-1zM4 3h1v1h-1zM6 3h1v1h-1zM10 3h1v1h-1zM13 3h1v1h-1zM14 3h1v1h-1zM18 3h1v1h-1zM20 3h1v1h-1zM21 3h1v1h-1zM22 3h1v1h-1zM24 3h1v1h-1zM0 4h1v1h-1zM2 4h1v1h-1zM3 4h1v1h-1zM4 4h1v1h-1zM6 4h1v1h-1zM8 4h1v1h-1zM9 4h1v1h-1zM10 4h1v1h-1zM11 4h1v1h-1zM13 4h1v1h-1zM14 4h1v1h-1zM18 4h1v1h-1zM20 4h1v1h-1zM21 4h1v1h-1zM22 4h1v1h-1zM24 4h1v1h-1zM0 5h1v1h-1zM6 5h1v1h-1zM8 5h1v1h-1zM11 5h1v1h-1zM14 5h1v1h-1zM18 5h1v1h-1zM24 5h1v1h-1zM0 6h1v1h-1zM1 6h1v1h-1zM2 6h1v1h-1zM3 6h1v1h-1zM4 6h1v1h-1zM5 6h1v1h-1zM6 6h1v1h-1zM8 6h1v1h-1zM10 6h1v1h-1zM12 6h1v1h-1zM14 6h1v1h-1zM16 6h1v1h-1zM18 6h1v1h-1zM19 6h1v1h-1zM20 6h1v1h-1zM21 6h1v1h-1zM22 6h1v1h-1zM23 6h1v1h-1zM24 6h1v1h-1zM8 7h1v1h-1zM10 7h1v1h-1zM11 7h1v1h-1zM12 7h1v1h-1zM14 7h1v1h-1zM15 7h1v1h-1zM16 7h1v1h-1zM0 8h1v1h-1zM1 8h1v1h-1zM2 8h1v1h-1zM5 8h1v1h-1zM6 8h1v1h-1zM8 8h1v1h-1zM9 8h1v1h-1zM10 8h1v1h-1zM13 8h1v1h-1zM14 8h1v1h-1zM15 8h1v1h-1zM16 8h1v1h-1zM17 8h1v1h-1zM18 8h1v1h-1zM19 8h1v1h-1zM20 8h1v1h-1zM23 8h1v1h-1zM24 8h1v1h-1zM1 9h1v1h-1zM2 9h1v1h-1zM3 9h1v1h-1zM4 9h1v1h-1zM5 9h1v1h-1zM7 9h1v1h-1zM8 9h1v1h-1zM9 9h1v1h-1zM10 9h1v1h-1zM13 9h1v1h-1zM15 9h1v1h-1zM16 9h1v1h-1zM18 9h1v1h-1zM19 9h1v1h-1zM21 9h1v1h-1zM24 9h1v1h-1zM1 10h1v1h-1zM2 10h1v1h-1zM3 10h1v1h-1zM4 10h1v1h-1zM5 10h1v1h-1zM6 10h1v1h-1zM7 10h1v1h-1zM8 10h1v1h-1zM11 10h1v1h-1zM15 10h1v1h-1zM22 10h1v1h-1zM24 10h1v1h-1zM0 11h1v1h-1zM1 11h1v1h-1zM3 11h1v1h-1zM4 11h1v1h-1zM7 11h1v1h-1zM9 11h1v1h-1zM13 11h1v1h-1zM15 11h1v1h-1zM16 11h1v1h-1zM19 11h1v1h-1zM20 11h1v1h-1zM21 11h1v1h-1zM0 12h1v1h-1zM2 12h1v1h-1zM6 12h1v1h-1zM8 12h1v1h-1zM9 12h1v1h-1zM11 12h1v1h-1zM12 12h1v1h-1zM13 12h1v1h-1zM16 12h1v1h-1zM18 12h1v1h-1zM19 12h1v1h-1zM1 13h1v1h-1zM3 13h1v1h-1zM4 13h1v1h-1zM5 13h1v1h-1zM7 13h1v1h-1zM8 13h1v1h-1zM12 13h1v1h-1zM15 13h1v1h-1zM17 13h1v1h-1zM18 13h1v1h-1zM19 13h1v1h-1zM24 13h1v1h-1zM0 14h1v1h-1zM1 14h1v1h-1zM3 14h1v1h-1zM5 14h1v1h-1zM6 14h1v1h-1zM7 14h1v1h-1zM8 14h1v1h-1zM12 14h1v1h-1zM13 14h1v1h-1zM14 14h1v1h-1zM15 14h1v1h-1zM18 14h1v1h-1zM21 14h1v1h-1zM22 14h1v1h-1zM24 14h1v1h-1zM3 15h1v1h-1zM4 15h1v1h-1zM7 15h1v1h-1zM8 15h1v1h-1zM11 15h1v1h-1zM12 15h1v1h-1zM14 15h1v1h-1zM15 15h1v1h-1zM17 15h1v1h-1zM21 15h1v1h-1zM23 15h1v1h-1zM0 16h1v1h-1zM1 16h1v1h-1zM2 16h1v1h-1zM4 16h1v1h-1zM6 16h1v1h-1zM8 16h1v1h-1zM9 16h1v1h-1zM10 16h1v1h-1zM13 16h1v1h-1zM14 16h1v1h-1zM15 16h1v1h-1zM16 16h1v1h-1zM17 16h1v1h-1zM18 16h1v1h-1zM19 16h1v1h-1zM20 16h1v1h-1zM23 16h1v1h-1zM24 16h1v1h-1zM8 17h1v1h-1zM9 17h1v1h-1zM10 17h1v1h-1zM13 17h1v1h-1zM14 17h1v1h-1zM15 17h1v1h-1zM16 17h1v1h-1zM20 17h1v1h-1zM24 17h1v1h-1zM0 18h1v1h-1zM1 18h1v1h-1zM2 18h1v1h-1zM3 18h1v1h-1zM4 18h1v1h-1zM5 18h1v1h-1zM6 18h1v1h-1zM9 18h1v1h-1zM10 18h1v1h-1zM11 18h1v1h-1zM16 18h1v1h-1zM18 18h1v1h-1zM20 18h1v1h-1zM21 18h1v1h-1zM22 18h1v1h-1zM24 18h1v1h-1zM0 19h1v1h-1zM6 19h1v1h-1zM8 19h1v1h-1zM9 19h1v1h-1zM13 19h1v1h-1zM15 19h1v1h-1zM16 19h1v1h-1zM20 19h1v1h-1zM21 19h1v1h-1zM23 19h1v1h-1zM24 19h1v1h-1zM0 20h1v1h-1zM2 20h1v1h-1zM3 20h1v1h-1zM4 20h1v1h-1zM6 20h1v1h-1zM9 20h1v1h-1zM11 20h1v1h-1zM12 20h1v1h-1zM13 20h1v1h-1zM15 20h1v1h-1zM16 20h1v1h-1zM17 20h1v1h-1zM18 20h1v1h-1zM19 20h1v1h-1zM20 20h1v1h-1zM21 20h1v1h-1zM23 20h1v1h-1zM24 20h1v1h-1zM0 21h1v1h-1zM2 21h1v1h-1zM3 21h1v1h-1zM4 21h1v1h-1zM6 21h1v1h-1zM12 21h1v1h-1zM16 21h1v1h-1zM17 21h1v1h-1zM20 21h1v1h-1zM21 21h1v1h-1zM22 21h1v1h-1zM23 21h1v1h-1zM0 22h1v1h-1zM2 22h1v1h-1zM3 22h1v1h-1zM4 22h1v1h-1zM6 22h1v1h-1zM8 22h1v1h-1zM10 22h1v1h-1zM12 22h1v1h-1zM13 22h1v1h-1zM14 22h1v1h-1zM17 22h1v1h-1zM20 22h1v1h-1zM23 22h1v1h-1zM24 22h1v1h-1zM0 23h1v1h-1zM6 23h1v1h-1zM8 23h1v1h-1zM10 23h1v1h-1zM11 23h1v1h-1zM12 23h1v1h-1zM14 23h1v1h-1zM16 23h1v1h-1zM17 23h1v1h-1zM18 23h1v1h-1zM19 23h1v1h-1zM0 24h1v1h-1zM1 24h1v1h-1zM2 24h1v1h-1zM3 24h1v1h-1zM4 24h1v1h-1zM5 24h1v1h-1zM6 24h1v1h-1zM8 24h1v1h-1zM10 24h1v1h-1zM13 24h1v1h-1zM14 24h1v1h-1zM16 24h1v1h-1zM18 24h1v1h-1zM21 24h1v1h-1zM24 24h1v1h-1z"/></svg><div class="qc">امسح وتعرّف أكثر</div></div></div></div></div>
-      </div>
-    </div>
-  </section>
-
-  <section class="slide" aria-label="المجالات">
-    <div class="wrap">
-      <span class="kicker">المجالات</span>
-      <h2>مجالات من حياة حلب</h2>
-      <p class="lead">شخصيات كل مجال من عصور مختلفة، من حلب القديمة إلى حلب اليوم.</p>
-      <div class="fields">
-        <div class="field rev"><span>ثوار حلب</span></div>
-        <div class="field"><span>النضال ضد الاستعمار</span></div>
-        <div class="field"><span>بُناة حلب وأمراؤها</span></div>
-        <div class="field"><span>الفكر والنهضة</span></div>
-        <div class="field"><span>الأدب والشعر</span></div>
-        <div class="field"><span>الطرب والموسيقى</span></div>
-        <div class="field"><span>مؤرخو حلب</span></div>
-        <div class="field"><span>رائدات حلب</span></div>
-        <div class="field"><span>العلم والطب</span></div>
-        <div class="field"><span>الحِرف والصناعة</span></div>
-        <div class="field"><span>التجارة والأسواق</span></div>
-        <div class="field"><span>الفن والرياضة</span></div>
-      </div>
-      <div class="renew">
-        <div class="date">28/11<small>من كل عام</small></div>
-        <div>
-          <h3>الشخصيات تتجدد كل سنة</h3>
-          <p>في ذكرى تحرير حلب من كل عام نستبدل بعض الشخصيات بأخرى جديدة. هكذا يتسع المكان لعدد أكبر من أبناء حلب، ويعود الناس كل سنة ليروا من انضم إلى الأعمدة.</p>
-        </div>
+      <span class="kicker">الشخصيات</span>
+      <h2>من يكتب لحلب</h2>
+      <p class="lead">أمثلة على المناصب والشخصيات، والأسماء تقترحها اللجنة المشتركة.</p>
+      <div class="cats">
+        <div class="cat"><h3>الدولة</h3><p>رئيس الجمهورية · مستشارو الرئيس ونوابه · محافظ حلب · وزراء · نواب عن حلب في مجلس الشعب</p></div>
+        <div class="cat"><h3>المرجعية الدينية</h3><p>مفتي الجمهورية · مفتي حلب · علماء حلب وقاماتها الدينية · رؤساء الطوائف المسيحية في حلب</p></div>
+        <div class="cat"><h3>الثورة</h3><p>قادة من ثوار حلب · قادة من الثورة السورية يتفق عليهم السوريون · معتقل محرَّر · منشد بارز من أصوات الثورة</p></div>
+        <div class="cat"><h3>الفكر والأدب والفن</h3><p>مفكر · شاعر · أديب أو روائي · خطاط أو فنان تشكيلي</p></div>
+        <div class="cat"><h3>العلم والطب</h3><p>شخصيات علمية وطبية حلبية بارزة، داخل سوريا أو في المهجر</p></div>
+        <div class="cat"><h3>الاقتصاد</h3><p>رجال أعمال حلبيون لهم حضور على مستوى سوريا</p></div>
+        <div class="cat"><h3>المجتمع</h3><p>رياضيون حلبيون · أبناء حلب من عامة الناس · أطفال</p></div>
       </div>
     </div>
   </section>
@@ -79,33 +55,62 @@
   <section class="slide" aria-label="آلية الاختيار">
     <div class="wrap">
       <span class="kicker">آلية الاختيار</span>
-      <h2>لجنة مشتركة تعتمد الأسماء</h2>
+      <h2>لجنة مشتركة تختار وتعتمد</h2>
       <div class="flow">
-        <div class="step"><div class="no">1</div><h3>نرشّح الأسماء</h3><p>يقدّم فريق المشروع قائمة مرشحين لكل مجال، مع نبذة عن كل شخصية.</p></div>
-        <div class="step mid"><div class="no">2</div><h3>اللجنة المشتركة تعتمد</h3><p>تدرس اللجنة القائمة وتعدّلها وتعتمد الأسماء النهائية.</p>
-          <div class="members"><span class="gov">محافظة حلب</span><span>فريق المشروع</span><span>مؤرخ حلبي</span><span>جهة ثقافية</span></div>
-        </div>
-        <div class="step"><div class="no">3</div><h3>التنفيذ</h3><p>تُركَّب اللوحات على الأعمدة قبل افتتاح الساحة في 28/11.</p></div>
+        <div class="step"><div class="no">1</div><h3>اقتراح الأسماء</h3><p>لجنة مشتركة مع محافظة حلب تقترح الشخصيات من كل فئة.</p></div>
+        <div class="step"><div class="no">2</div><h3>طلب الرسائل</h3><p>نتواصل مع كل شخصية ونطلب منها رسالة قصيرة لأبناء حلب.</p></div>
+        <div class="step"><div class="no">3</div><h3>الاعتماد والتركيب</h3><p>تعتمد اللجنة النصوص وترتيبها على الأعمدة، ثم تُطبع وتُركَّب.</p></div>
       </div>
       <div class="crit">
-        <h3>معايير اختيار الشخصيات</h3>
+        <h3>معايير الشخصيات</h3>
         <ul>
-          <li>أثر واضح في حلب وأهلها</li>
+          <li>محبوبة ولا خلاف عليها</li>
           <li>لا علاقة لها بالنظام البائد</li>
-          <li>لا خلاف عليها بين الحلبيين</li>
-          <li>تنوّع في المجالات والعصور</li>
+          <li>رسالتها قصيرة وموجّهة لأبناء حلب</li>
         </ul>
+      </div>
+      <div class="renew">
+        <div class="d">28/11<small>من كل عام</small></div>
+        <div><b>الرسائل تتجدد كل سنة</b><span>في ذكرى التحرير تُعلَّق رسائل جديدة من شخصيات جديدة، فيعود الناس كل عام ليقرؤوا ما كُتب لحلب.</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="slide" aria-label="فكرة إضافية">
+    <div class="wrap">
+      <span class="extra-tag">فكرة إضافية</span>
+      <h2>أصدقاء حلب من العالم</h2>
+      <p class="lead">شخصيات عربية وعالمية مرموقة تكتب لحلب. إن تحققت، تصبح الساحة حديث الناس داخل سوريا وخارجها.</p>
+      <div class="s4">
+        <div>
+          <div class="roles">
+            <span>مخرج سينمائي</span><span>موسيقار أو مطرب</span><span>فنان تشكيلي</span><span>عالِم أو مفكر</span><span>شخصية دينية مرموقة</span><span>أديب أو شاعر</span><span>رياضي</span>
+          </div>
+          <div class="pts">
+            <div class="pt"><span><b>صلة واضحة بحلب أو سوريا:</b> زارها، أو كتب أو صنع عملاً عنها، أو وقف مع السوريين.</span></div>
+            <div class="pt"><span><b>بلغة صاحبها:</b> تُكتب الرسالة بلغته مع ترجمتها العربية.</span></div>
+          </div>
+        </div>
+        <div>
+          <div class="langs" aria-label="نموذج رسالة بلغتين">
+            <div class="l ltr">“Aleppo, the world is waiting to see you rise again.”</div>
+            <div class="l">«حلب، العالم ينتظر أن يراكِ تنهضين من جديد.»</div>
+            <small>نموذج توضيحي</small>
+          </div>
+          <div class="video"><span class="play" aria-hidden="true"></span><div><b>فيديو في حفل الافتتاح</b><span>يجمع رسائلهم لحلب بلغات العالم، ويُعرض على شاشة الساحة يوم افتتاحها.</span></div></div>
+        </div>
       </div>
     </div>
   </section>
 
 </main>
 
-<div class="nav">
-  <button id="next" aria-label="التالي">&#8595;</button>
-  <div class="bar" id="bar" role="group" aria-label="الشرائح"></div>
-  <button id="prev" aria-label="السابق">&#8593;</button>
-</div>
+<div class="prog" aria-hidden="true"><i id="prog"></i></div>
+<nav class="nav" aria-label="التنقل بين الشرائح">
+  <button class="arr" id="prev" type="button" aria-label="الشريحة السابقة"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5l7 7-7 7"/></svg></button>
+  <div class="mid"><span class="count" id="count">1 <i>/ 4</i></span><div class="dots" id="dots"></div></div>
+  <button class="arr" id="next" type="button" aria-label="الشريحة التالية"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg></button>
+</nav>
 <script src="js/main.js"></script>
 </body>
 </html>

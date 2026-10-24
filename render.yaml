@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: aleppo-columns
+    name: letters-to-aleppo
     runtime: static
     buildCommand: echo "Static site - no build needed"
     staticPublishPath: .
